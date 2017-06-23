@@ -1,0 +1,59 @@
+
+Users will be the HR department HR executives, they will have the authority to:
+
+INSERT Employee Information
+VIEW Employee Information
+UPDATE Employee Information
+DELETE Employee Information
+
+
+DATABASE Design:
+
+1- USERS Table
+
+Columns:
+	ID			Primary Key
+	UserID			Primary Key
+	Password		Secondary Key
+	Email
+	Employee ID
+
+2- EMPLOYEES Table
+
+Columns:
+	ID			Primary Key
+	Employee ID		Primary Key
+	First Name
+	Last Name
+	Gender
+	
+	Department ID!		?
+	Working Since
+	SALARY PACKAGE!		same as department table, separate entity
+	Address!
+	Email Address!
+	Contact Number!
+	Emergency Contact Number
+	Educational History!
+	Past experience!	Designation!
+
+Ddepartmet separate table, to use department id for each user
+Department details to be maintained in same table
+
+
+
+
+--------------------------------------------------------------------
+
+how to import the projectin eclips neon
+Ans:
+first go to file
+second click to import 
+3rd click the exiting project into workspace
+4th click the browse
+5th choose the project and click on ok
+6th click the next or finish and project is in your platform
+------------------------------------------------------------------------
+How sql start 
+mysql -u root -p
+root is a password
